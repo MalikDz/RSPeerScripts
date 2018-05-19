@@ -16,6 +16,7 @@ public class ScriptPresenter extends AbstractPresenter<ScriptDataModel, ScriptVi
 	}
 
 	public void updateModelData(String trainingMethod) {
+		model().setTrainingMethod(trainingMethod);
 		switch (trainingMethod) {
 			case "Crimson swift":
 				model().setHunterData(Hunter.BIRDS);
@@ -38,6 +39,5 @@ public class ScriptPresenter extends AbstractPresenter<ScriptDataModel, ScriptVi
 				model().setTypeIndex(2);
 				break;
 		}
-		model().setTrainingMethod(trainingMethod);
 	}
 }
