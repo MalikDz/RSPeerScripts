@@ -5,6 +5,7 @@ import org.rspeer.runetek.event.listeners.RenderListener;
 /**
  * 
  * @author MalikDz
+ * NOT NEEDED FOR RSPEER BECAUSE OF THE STATIC API
  * 
  */
 
