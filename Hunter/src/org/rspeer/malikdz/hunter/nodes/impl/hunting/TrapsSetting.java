@@ -29,8 +29,7 @@ public class TrapsSetting extends CustomNode {
 
 	@Override
 	public void run() {
-		if (Players.getLocal().getPosition().equals(target) || handleWalk())
-			setTrap();
+		if (Players.getLocal().getPosition().equals(target) || handleWalk()) setTrap();
 	}
 
 	private void setTrap() {
