@@ -17,26 +17,26 @@ public class ScriptPresenter extends AbstractPresenter<ScriptDataModel, ScriptVi
 
 	public void updateModelData(String trainingMethod) {
 		switch (trainingMethod) {
-		case "Crimson swift":
-			model().setHunterData(Hunter.BIRDS);
-			model().setTypeIndex(0);
-			break;
-		case "Tropical wagtail":
-			model().setHunterData(Hunter.BIRDS);
-			model().setTypeIndex(1);
-			break;
-		case "Grey chins":
-			model().setHunterData(Hunter.CHINS);
-			model().setTypeIndex(0);
-			break;
-		case "Red chins":
-			model().setHunterData(Hunter.CHINS);
-			model().setTypeIndex(1);
-			break;
-		case "Black chins":
-			model().setHunterData(Hunter.CHINS);
-			model().setTypeIndex(2);
-			break;
+			case "Crimson swift":
+				model().setHunterData(Hunter.BIRDS);
+				model().setTypeIndex(0);
+				break;
+			case "Tropical wagtail":
+				model().setHunterData(Hunter.BIRDS);
+				model().setTypeIndex(1);
+				break;
+			case "Grey chins":
+				model().setHunterData(Hunter.CHINS);
+				model().setTypeIndex(0);
+				break;
+			case "Red chins":
+				model().setHunterData(Hunter.CHINS);
+				model().setTypeIndex(1);
+				break;
+			case "Black chins":
+				model().setHunterData(Hunter.CHINS);
+				model().setTypeIndex(2);
+				break;
 		}
 		model().setTrainingMethod(trainingMethod);
 	}
