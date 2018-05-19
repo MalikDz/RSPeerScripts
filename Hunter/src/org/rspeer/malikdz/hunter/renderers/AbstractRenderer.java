@@ -5,10 +5,10 @@ import org.rspeer.runetek.event.listeners.RenderListener;
 /**
  * 
  * @author MalikDz
- * NOT NEEDED FOR RSPEER BECAUSE OF THE STATIC API
  * 
  */
 
+//Note: NOT NEEDED FOR RSPEER BECAUSE OF THE STATIC API
 public abstract class AbstractRenderer<T> implements RenderListener {
 
 	protected T ctx;
