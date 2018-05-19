@@ -11,5 +11,4 @@ public abstract class Node {
 	public abstract void run();
 
 	public abstract boolean canRun();
-
 }
