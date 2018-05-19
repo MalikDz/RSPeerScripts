@@ -37,5 +37,4 @@ public abstract class AbstractView<T extends AbstractPresenter> extends javax.sw
 	public abstract boolean isHiden();
 
 	public abstract void display();
-
 }
