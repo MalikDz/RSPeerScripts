@@ -21,23 +21,18 @@ public class ScriptPresenter extends AbstractPresenter<ScriptDataModel, ScriptVi
 			model().setHunterData(Hunter.BIRDS);
 			model().setTypeIndex(0);
 			break;
-
 		case "Tropical wagtail":
 			model().setHunterData(Hunter.BIRDS);
 			model().setTypeIndex(1);
 			break;
-
 		case "Grey chins":
-
 			model().setHunterData(Hunter.CHINS);
 			model().setTypeIndex(0);
 			break;
-
 		case "Red chins":
 			model().setHunterData(Hunter.CHINS);
 			model().setTypeIndex(1);
 			break;
-
 		case "Black chins":
 			model().setHunterData(Hunter.CHINS);
 			model().setTypeIndex(2);
