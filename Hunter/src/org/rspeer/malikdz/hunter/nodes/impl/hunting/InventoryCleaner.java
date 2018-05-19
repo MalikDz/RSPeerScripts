@@ -26,7 +26,6 @@ public class InventoryCleaner extends CustomNode {
 		for (Item item : Inventory.getItems())
 			if (Arrays.binarySearch(UNEEDED_ITEMS, item.getName()) >= 0)
 				dropItem(item);
-
 	}
 
 	private void dropItem(Item item) {
