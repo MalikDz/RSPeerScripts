@@ -10,7 +10,6 @@ import org.rspeer.malikdz.hunter.nodes.CustomNode;
 
 public class CloseBank extends CustomNode {
 
-
 	@Override
 	public void run() {
 		// TODO
